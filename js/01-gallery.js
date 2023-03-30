@@ -49,7 +49,7 @@ import { galleryItems } from './gallery-items.js';
       const ESC_KEY_CODE = "Escape";
        const IsEscKeY = evt.code === ESC_KEY_CODE;
        if (IsEscKeY) {
-          instance.onClose();
+          instance.close();
        }
    };
 
